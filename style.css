@@ -30,23 +30,23 @@ li {
 
 body {
 	margin: 0;
-	background: #ebebeb;
+	background: #F5E8C7;
 }
 
 div {
-	background: #ebebeb;
 	width: 60%;
 	margin: auto;
 	margin-top: 30px;
 	padding: 20px 0px;
 	border-radius: 12px;
-	box-shadow:  7px 7px 14px #c8c8c8,
-             -7px -7px 14px #ffffff;
+	background: #F5E8C7;
+	box-shadow:  10px 10px 20px #e4cfbb,
+             -10px -10px 20px #fff9df;
 }
 
 div:focus-within {
-	box-shadow:  13px 14px 15px rgba(0, 0, 0, 0.2),
-             -10px -14px 15px #ffffff;
+	box-shadow:  10px 10px 20px #e4cfbb,
+             -10px -10px 20px #fff9df;
 }
 
 div {
@@ -119,9 +119,10 @@ footer input {
 	border: none;
 	color: RGB(39,52,82);
 	border-radius: 20px;
-	box-shadow:  7px 7px 14px #c8c8c8,
-             -7px -7px 14px #ffffff;
-    cursor: pointer;
+	background: #F5E8C7;
+	box-shadow:  10px 10px 20px #e4cfbb,
+             -10px -10px 20px #fff9df;
+  cursor: pointer;
 }
 
 footer input:focus {
