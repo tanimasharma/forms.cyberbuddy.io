@@ -19,6 +19,23 @@ span{
 	font-family: sans-serif;
 }
 
+.head h1 {
+	font-size: 4vw;
+	font-weight: bold;
+	text-align: center;
+	margin: 15px auto;
+	color: #273452;
+}
+
+.head h2 {
+	letter-spacing: 10px;
+	font-weight: 50;
+	font-size: 30px;
+	text-align: center;
+	margin: 0 auto 20px auto;
+	color: #273452;
+}
+
 h1 {
 	font-size: 30px;
 	font-weight: 700;
