@@ -50,3 +50,10 @@ function send_message() {
     }
   );
 }
+function hello() {
+  var divs = document.querySelectorAll('#div-test');
+  document.getElementById("test").classList.add("peach-bg");
+  for (var i = 0; i < divs.length; i++) {
+    divs[i].classList.add('peach-bg-div');
+  }
+}

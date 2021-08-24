@@ -19,23 +19,6 @@ span{
 	font-family: sans-serif;
 }
 
-.head h1 {
-	font-size: 4vw;
-	font-weight: bold;
-	text-align: center;
-	margin: 15px auto;
-	color: #273452;
-}
-
-.head h2 {
-	letter-spacing: 10px;
-	font-weight: 50;
-	font-size: 30px;
-	text-align: center;
-	margin: 0 auto 20px auto;
-	color: #273452;
-}
-
 h1 {
 	font-size: 30px;
 	font-weight: 700;
@@ -47,7 +30,16 @@ li {
 
 body {
 	margin: 0;
+	background: #ebebeb;
+}
+
+.peach-bg {
 	background: #F5E8C7;
+	-webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out
 }
 
 div {
@@ -56,14 +48,36 @@ div {
 	margin-top: 30px;
 	padding: 20px 0px;
 	border-radius: 12px;
+	border-radius: 12px;
+	background: #ebebeb;
+	box-shadow:  7px 7px 14px #c8c8c8,
+             -7px -7px 14px #ffffff;
+}
+
+.peach-bg-div {
 	background: #F5E8C7;
 	box-shadow:  10px 10px 20px #e4cfbb,
              -10px -10px 20px #fff9df;
+  -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out
 }
 
 div:focus-within {
+	box-shadow:  13px 14px 15px rgba(0, 0, 0, 0.2),
+             -10px -14px 15px #ffffff;
+}
+
+.peach-bg div:focus-within {
 	box-shadow:  10px 10px 20px #e4cfbb,
              -10px -10px 20px #fff9df;
+  -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out
 }
 
 div {
@@ -136,10 +150,15 @@ footer input {
 	border: none;
 	color: RGB(39,52,82);
 	border-radius: 20px;
+  cursor: pointer;
+  box-shadow:  7px 7px 14px #c8c8c8,
+             -7px -7px 14px #ffffff;
+}
+
+.peach-bg footer input {
 	background: #F5E8C7;
 	box-shadow:  10px 10px 20px #e4cfbb,
              -10px -10px 20px #fff9df;
-  cursor: pointer;
 }
 
 footer input:focus {
@@ -150,6 +169,11 @@ footer input:focus {
     -ms-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out
+}
+
+.peach-bg footer input:focus {
+	box-shadow:  13px 14px 15px rgba(0, 0, 0, 0.2),
+             -10px -14px 15px #ffffff;
 }
 
 @media screen and (max-width: 730px) {
