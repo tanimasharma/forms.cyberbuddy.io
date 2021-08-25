@@ -70,9 +70,9 @@ div:focus-within {
              -10px -14px 15px #ffffff;
 }
 
-.peach-bg div:focus-within {
-	box-shadow:  10px 10px 20px #e4cfbb,
-             -10px -10px 20px #fff9df;
+.peach-bg-div:focus-within {
+	box-shadow:  10px 10px 20px rgba(444,444,400,0.4),
+             -10px -10px 20px rgba(444,444,400,0.4);
   -webkit-transition: all .2s ease-out;
     -moz-transition: all .2s ease-out;
     -ms-transition: all .2s ease-out;
@@ -155,7 +155,7 @@ footer input {
              -7px -7px 14px #ffffff;
 }
 
-.peach-bg footer input {
+.peach-bg-input footer input {
 	background: #F5E8C7;
 	box-shadow:  10px 10px 20px #e4cfbb,
              -10px -10px 20px #fff9df;
@@ -171,7 +171,7 @@ footer input:focus {
     transition: all .2s ease-out
 }
 
-.peach-bg footer input:focus {
+.peach-bg-input footer input:focus {
 	box-shadow:  13px 14px 15px rgba(0, 0, 0, 0.2),
              -10px -14px 15px #ffffff;
 }

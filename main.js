@@ -56,4 +56,5 @@ function hello() {
   for (var i = 0; i < divs.length; i++) {
     divs[i].classList.add('peach-bg-div');
   }
+  document.getElementById("input-test").classList.add("peach-bg-input");
 }
